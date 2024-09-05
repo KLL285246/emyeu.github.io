@@ -1,0 +1,45 @@
+body {
+    background: #ffccff;
+    text-align: center;
+}
+
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+h1 {
+    color:  red;
+    font-size: 50px;
+    font-family: Bell MT;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+h2 {
+    color: #4d88ff;
+    font-size: 40px;
+    font-family: Chamberi Super Display;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+p.p {
+    color : red;
+    background-color: white;
+    display: inline-block;
+    font-family: Times New Roman;
+    padding:  5px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+section#video#Picture {
+    border: 3px solid #ddd; /* Viền mỏng */
+    border-radius: 10px; /* Bo tròn góc */
+    margin: 20px 0; /* Khoảng cách giữa các phần tử */
+    display: inline-block; /* Để hình ảnh không chiếm toàn bộ chiều rộng của dòng */
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của container */
+    height: auto; /* Đảm bảo tỷ lệ khung hình của hình ảnh */
+}
